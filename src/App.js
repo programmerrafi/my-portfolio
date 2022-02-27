@@ -13,7 +13,6 @@ import {
   works,
   skills,
   projects,
-  partners,
   testimonials,
   main,
   about,

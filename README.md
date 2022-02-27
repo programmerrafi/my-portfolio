@@ -1,5 +1,3 @@
-# Khalid Saifullah's Digital Portfolio
+# "MD Rafi's Digital Portfolio
 
-![Khalid Saifullah's Digital Portfolio](cover.jpg?raw=true "Khalid Saifullah's Digital Portfolio")
-
-[Live Demo](https://khaliddev.com)
+!["MD Rafi's Digital Portfolio](cover.png?raw=true "MD Rafi's Digital Portfolio")
