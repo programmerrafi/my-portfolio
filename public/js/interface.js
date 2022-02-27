@@ -1,6 +1,4 @@
 ﻿$(document).ready(function () {
-  console.log("Pip pip");
-
   /* Window Load */
   $(window).on("load", function () {
     $(".loader").fadeOut(200);

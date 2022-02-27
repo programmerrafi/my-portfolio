@@ -72,7 +72,7 @@ export const works = [
   [
     {
       company: "KS-Devware",
-      title: "Professional Front-End Developer & UI/UX designer",
+      title: "Front-End Developer & UI/UX designer",
       image: "img/behance.png",
       years: "January 2022 - Present",
       description:
