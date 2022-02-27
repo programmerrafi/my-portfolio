@@ -431,6 +431,7 @@ ion-icon {
   100% {
     -webkit-transform: scale(0);
   }
+
   50% {
     -webkit-transform: scale(1);
   }
@@ -442,6 +443,7 @@ ion-icon {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
+
   50% {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -570,6 +572,7 @@ ion-icon {
     position: static;
     float: left;
   }
+
   .navbar .container {
     width: auto;
   }
@@ -611,7 +614,7 @@ ion-icon {
 .navbar-bottom .social {
   position: relative;
   z-index: 10;
-  float: left;
+  float: right;
 }
 
 .navbar-bottom .copy {
@@ -622,7 +625,7 @@ ion-icon {
 
 .social-icons li {
   float: left;
-  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .social-icons ion-icon {
@@ -1194,6 +1197,18 @@ h1 + .line {
   transition-delay: 1s;
 }
 
+.exp_skills h4 {
+  margin-bottom: 10px;
+}
+.skills_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.3rem;
+}
+.skill-item {
+  font-weight: bold;
+}
+
 .progress {
   height: 6px;
   border-radius: 0;
@@ -1294,9 +1309,14 @@ h1 + .line {
   padding-bottom: 30%;
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  background-position: top center;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat;
+  transition: all 5s ease-out 0.5s;
+  -webkit-transition: all 5s ease-out 0.5s;
+  -moz-transition: all 5s ease-out 0.5s;
+  -ms-transition: all 5s ease-out 0.5s;
+  -o-transition: all 5s ease-out 0.5s;
 }
 
 .project-box-inner {
@@ -1307,9 +1327,11 @@ h1 + .line {
   height: 100%;
   padding: 2.14rem 1.928rem;
 }
+
 .project-box h4 {
   margin: 0;
   color: #fff;
+  word-break: break-word;
 }
 
 .project-category {
@@ -1318,9 +1340,16 @@ h1 + .line {
 }
 
 .project-box:hover {
-  background: #d4f21b;
+  /*background: #d4f21b;
+  */
   text-decoration: none;
   border-color: transparent;
+  background-position: bottom center !important;
+  transition: all 5s linear 0;
+  -webkit-transition: all 5s linear 0;
+  -moz-transition: all 5s linear 0;
+  -ms-transition: all 5s linear 0;
+  -o-transition: all 5s linear 0;
 }
 
 .project-box:hover h4 {
@@ -1335,9 +1364,22 @@ h1 + .line {
   .project-box {
     padding-bottom: 75%;
   }
+
   .project-category {
     position: absolute;
     bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-box {
+    padding-bottom: 40%;
+  }
+  .project-box-inner h4 {
+    font-size: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
 
@@ -1356,6 +1398,13 @@ h1 + .line {
 .col-partner img {
   max-width: 100%;
   transition: all 0.3s ease;
+}
+
+@media (max-width: 560px) {
+  .col-partner {
+    margin: 1rem 0;
+    padding: 0 4rem;
+  }
 }
 
 /* 3.8 Testimonials */
@@ -1378,4 +1427,10 @@ h1 + .line {
 .message {
   margin-bottom: 2rem;
   display: none;
+}
+
+@media (max-width: 768px) {
+  .hero_heading {
+    font-size: 4rem;
+  }
 }

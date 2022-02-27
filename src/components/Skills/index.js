@@ -29,27 +29,22 @@ function Skills({ skills, title, subtitle }) {
                 </div>
                 <div className="mt-5 mt-lg-0 col-lg-5 offset-lg-1">
                   <h2 dangerouslySetInnerHTML={{ __html: title }}></h2>
-                  <p dangerouslySetInnerHTML={{ __html: subtitle }}></p>
-                  <div className="mt-5 pt-2">
-                    {skills?.map(({ name, level }) => (
-                      <div className="progress-item" key={name}>
-                        <div className="row">
-                          <h6 className="col-md-6 mt-0">{name}</h6>
-                          <h6 className="col-md-6 text-right mt-0">{level}%</h6>
-                        </div>
-                        <div className="progress mb-5">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: level + "%" }}
-                            aria-valuenow={level}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
+                  <p
+                    className="mb-5"
+                    dangerouslySetInnerHTML={{ __html: subtitle }}
+                  ></p>
+                  {skills?.map(({ title, skills }) => (
+                    <div className="exp_skills" key={title}>
+                      <h4>{title}</h4>
+                      <div className="mb-4 pt-2 skills_wrapper">
+                        {skills?.map((skill, i) => (
+                          <div className="skill-item" key={i}>
+                            <h6 className="mt-0">{skill}</h6>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

@@ -78,6 +78,11 @@ function Nav({ name, phone, email, social, resumedownload }) {
             </a>
           </li>
           <li>
+            <a className="nav-link" data-menuanchor="partners" href="#partners">
+              Partners
+            </a>
+          </li>
+          <li>
             <a
               className="nav-link"
               data-menuanchor="testimonials"

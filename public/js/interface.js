@@ -32,6 +32,7 @@
         "experience",
         "skills",
         "projects",
+        "partners",
         "testimonials",
         "contact",
       ],

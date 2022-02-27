@@ -41,7 +41,7 @@ export const main = {
 };
 
 export const about = {
-  bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the details",
+  bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
   ido: "<p>FRONTEND WEB DEVELOPMENT</p><p>UI/UX DESIGN</p>",
   years: 2,
   image: "img/profilepic.jpg",
@@ -88,20 +88,23 @@ export const skills = {
     "I will help you build your website and grow your business. I create clarifying strategy, beautiful website and identity design.",
   skills: [
     {
-      name: "Html",
-      level: 90,
+      title: "Expert at",
+      skills: ["JavaScript", "React JS", "Next JS", "CSS"],
     },
     {
-      name: "CSS",
-      level: 85,
+      title: "Good at",
+      skills: [
+        "Redux",
+        "UI/UX Design",
+        "Firebase",
+        "Sanity io",
+        "Git, GitHub",
+        "Tailwind CSS",
+      ],
     },
     {
-      name: "JavaScript",
-      level: 80,
-    },
-    {
-      name: "React Js",
-      level: 80,
+      title: "Cool at",
+      skills: ["SCSS", "Jquery", "Bootstrap", "Material UI", "HTML"],
     },
   ],
 };
@@ -110,19 +113,19 @@ export const projects = [
   {
     title: "CorporX website",
     category: "Website",
-    image: "corporx.png",
+    image: "corporex.png",
     url: "https://corporx-react-website.vercel.app",
   },
   {
     title: "Social App",
     category: "App",
-    image: "social-img.png",
+    image: "social-1.png",
     url: "https://mdrafi-social-app.netlify.app",
   },
   {
     title: "Instagram-2.0",
     category: "App",
-    image: "insta.png",
+    image: "instagrem-2.png",
     url: "https://instagram-2-0-mu.vercel.app",
   },
   {
@@ -134,7 +137,7 @@ export const projects = [
   {
     title: "React Clock",
     category: "App",
-    image: "clock.png",
+    image: "alarm.png",
     url: "https://reactclock-xi.vercel.app",
   },
   {
@@ -150,19 +153,7 @@ export const partners = [
     image: "1.png",
   },
   {
-    image: "2.webp",
-  },
-  {
-    image: "4.png",
-  },
-  {
     image: "workslee.png",
-  },
-  {
-    image: "gorelove.png",
-  },
-  {
-    image: "3.png",
   },
 ];
 

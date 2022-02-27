@@ -5,7 +5,7 @@ import About from "./components/About";
 import Scrollbar from "./components/Scrollbar";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-// import Partners from './components/Partners';
+import Partners from "./components/Partners";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -13,6 +13,7 @@ import {
   works,
   skills,
   projects,
+  partners,
   testimonials,
   main,
   about,
@@ -28,8 +29,11 @@ function App() {
         <About {...about} />
         <Experience works={works} />
         <Skills {...skills} />
-        <Projects projects={projects} />
-        {/* <Partners partners={partners} /> */}
+        <Projects
+          projects={projects}
+          github="https://github.com/programmerrafi"
+        />
+        <Partners partners={partners} />
         <Testimonials testimonials={testimonials} />
         {/* <News /> */}
         <Contact {...main} />

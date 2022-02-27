@@ -1,7 +1,16 @@
 import { useState } from "react";
 
-function Projects({ projects }) {
+let timer;
+
+function Projects({ projects, github }) {
   const [active, setActive] = useState(null);
+
+  const setNull = () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      setActive(null);
+    }, 5000);
+  };
 
   return (
     <>
@@ -12,18 +21,7 @@ function Projects({ projects }) {
       >
         <div className="project-wrap">
           <div className="bg-changer">
-            <div
-              className="section-bg active"
-              style={{
-                backgroundImage: `${
-                  active ? "url('img/bg/portfolio/" + active + "')" : "none"
-                }`,
-                backgroundAttachment: "fixed",
-                backgroundPosition: "top",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-            ></div>
+            <div className="section-bg active"></div>
           </div>
           <div className="intro">
             <div className="scroll-wrap">
@@ -33,12 +31,22 @@ function Projects({ projects }) {
                   <div className="row-project-box row">
                     {projects?.map(({ title, category, image, url }) => (
                       <div
-                        onMouseEnter={() => setActive(image)}
-                        onMouseLeave={() => setActive(null)}
+                        onMouseEnter={() => {
+                          clearTimeout(timer);
+                          setActive(image);
+                        }}
+                        onMouseLeave={setNull}
                         className="col-project-box col-md-6 col-lg-4 col-xl-3"
                         key={title}
                       >
                         <a
+                          style={{
+                            backgroundImage: `${
+                              active === image
+                                ? "url('img/bg/portfolio/" + active + "')"
+                                : "none"
+                            }`,
+                          }}
                           href={url}
                           target="_blank"
                           rel="noreferrer"
@@ -53,6 +61,15 @@ function Projects({ projects }) {
                     ))}
                   </div>
                 </div>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={github}
+                  className="btn mt-5 mx-auto d-block"
+                  style={{ width: "fit-content" }}
+                >
+                  Visit my GitHub
+                </a>
               </div>
             </div>
           </div>
