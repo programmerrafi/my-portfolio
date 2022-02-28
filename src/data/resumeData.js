@@ -10,7 +10,7 @@ export const main = {
   address: "Banasree, Dhaka, Bangladesh",
   website: "https://khaliddev.com",
   resumedownload:
-    "https://drive.google.com/file/d/1uJ9B1U15GI5jPZfzen3Kk8X5HUgG_qDG/view?usp=sharing",
+    "https://drive.google.com/file/d/1oPbJtvxxLwkIwQhmYOwTbX5621bZwZ43/view?usp=sharing",
   social: [
     {
       name: "linkedin",
