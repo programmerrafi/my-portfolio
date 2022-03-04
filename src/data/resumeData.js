@@ -44,7 +44,7 @@ export const about = {
   bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
   ido: "<p>FRONTEND WEB DEVELOPMENT</p><p>UI/UX DESIGN</p>",
   years: 2,
-  image: "img/profilepic.jpg",
+  image: "img/rafi3.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
     "https://drive.google.com/file/d/1oPbJtvxxLwkIwQhmYOwTbX5621bZwZ43/view?usp=sharing",
@@ -111,6 +111,12 @@ export const skills = {
 
 export const projects = [
   {
+    title: "Discord-Blockchain",
+    category: "App",
+    image: "discord.png",
+    url: "https://rafi-discord.vercel.app",
+  },
+  {
     title: "CorporX website",
     category: "Website",
     image: "corporex.png",
@@ -127,6 +133,12 @@ export const projects = [
     category: "App",
     image: "instagrem-2.png",
     url: "https://instagram-2-0-mu.vercel.app",
+  },
+  {
+    title: "Chat App",
+    category: "App",
+    image: "chats1.png",
+    url: "https://programmerrafi.github.io/chat-apps",
   },
   {
     title: "Educavo Website",
