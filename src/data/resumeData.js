@@ -158,6 +158,12 @@ export const projects = [
     image: "travel.png",
     url: "https://travel-advisor-mdrafi.netlify.app",
   },
+  {
+    title: "OpenSea Blockchain",
+    category: "App",
+    image: "opensea.png",
+    url: "https://opensea-blockchain-by-rafi.vercel.app",
+  },
 ];
 
 export const partners = [
