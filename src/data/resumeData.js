@@ -164,6 +164,24 @@ export const projects = [
     image: "opensea.png",
     url: "https://opensea-blockchain-by-rafi.vercel.app",
   },
+  {
+    title: "Snake Games",
+    category: "App",
+    image: "snake.png",
+    url: "https://rafis-snake-games.vercel.app",
+  },
+  {
+    title: "Book",
+    category: "App",
+    image: "book.png",
+    url: "https://react-book-seven.vercel.app",
+  },
+  {
+    title: "BreakOut Games",
+    category: "App",
+    image: "breakout.png",
+    url: "https://brekout-mdrafi10.vercel.app",
+  },
 ];
 
 export const partners = [
