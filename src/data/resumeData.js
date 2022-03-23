@@ -10,7 +10,7 @@ export const main = {
   address: "Banasree, Dhaka, Bangladesh",
   website: "https://khaliddev.com",
   resumedownload:
-    "https://drive.google.com/file/d/1rTOogI8IwEetD5qVXmdRgl93TYSnoF7E/view?usp=sharing",
+    "https://drive.google.com/file/d/1OUQHYmaF5p3syuZY9hq5tR55YzuCaEix/view?usp=sharing",
   social: [
     {
       name: "linkedin",
@@ -47,7 +47,7 @@ export const about = {
   image: "img/rafi3.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "https://drive.google.com/file/d/1rTOogI8IwEetD5qVXmdRgl93TYSnoF7E/view?usp=sharing",
+    "https://drive.google.com/file/d/1OUQHYmaF5p3syuZY9hq5tR55YzuCaEix/view?usp=sharing",
 };
 
 export const works = [
