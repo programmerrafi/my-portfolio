@@ -44,7 +44,7 @@ export const about = {
   bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
   ido: "<p>FRONTEND WEB DEVELOPMENT</p><p>UI/UX DESIGN</p>",
   years: 2,
-  image: "img/11.png",
+  image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
     "https://drive.google.com/file/d/18GDObOYfgttaYfqBSiD4Hv5l5vAsbERl/view?usp=sharing",
