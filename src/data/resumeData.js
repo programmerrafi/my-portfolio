@@ -94,6 +94,7 @@ export const skills = {
     {
       title: "Good at",
       skills: [
+        "React Native",
         "Redux",
         "UI/UX Design",
         "Firebase",
