@@ -127,7 +127,7 @@ export const projects = [
     title: "Social App",
     category: "App",
     image: "social-1.png",
-    url: "https://mdrafi-social-app.netlify.app",
+    url: "https://social-app-pin.netlify.app",
   },
   {
     title: "Instagram-2.0",
