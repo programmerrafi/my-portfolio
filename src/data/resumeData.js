@@ -157,7 +157,7 @@ export const projects = [
     title: "Travel Advisor",
     category: "App",
     image: "travel.png",
-    url: "https://travel-advisor-mdrafi.netlify.app",
+    url: "https://travel-advisor-google-app.netlify.app",
   },
   {
     title: "OpenSea Blockchain",
