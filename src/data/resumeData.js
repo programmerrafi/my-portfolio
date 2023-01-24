@@ -42,7 +42,14 @@ export const main = {
 
 export const about = {
   bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
-  ido: "<p>FRONTEND WEB DEVELOPMENT</p><p>UI/UX DESIGN</p>",
+  ido: `
+  <p>WEB DEVELOPMENT</p>
+  <p>APP DEVELOPMENT</p>
+  <p>UI/UX DESIGN</p>
+  <p>FRONT-END DEVELOPMENT</p>
+  <p>BACK-END DEVELOPMENT</p>
+  <p>FULL-STACK DEVELOPMENT</p>
+  `,
   years: 2,
   image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
