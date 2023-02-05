@@ -5,7 +5,7 @@ export const main = {
   image: "profilepic.jpg",
   bio: "I am Md Rafi. A young entrepreneur. With nearly 2 years of experience, I’m a front-end developer and UI/UX designer. I'm currently working on KS-Devware institute. Worked as a professional front-end developer. Learning full-stack Web/App development.",
   email: "mdrafiprogrammer@gmail.com",
-  phone: "+880 17674 02247",
+  phone: "+880 17032 50661",
   quote: "The universe is a pretty big place. If it's just us.",
   address: "Banasree, Dhaka, Bangladesh",
   website: "https://khaliddev.com",
@@ -52,7 +52,6 @@ export const about = {
   `,
   years: 2,
   image: "img/perfect-min.png",
-  // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
     "https://drive.google.com/file/d/18GDObOYfgttaYfqBSiD4Hv5l5vAsbERl/view?usp=sharing",
