@@ -53,6 +53,7 @@ export const about = {
   years: 2,
   image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
+  // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
     "https://drive.google.com/file/d/18GDObOYfgttaYfqBSiD4Hv5l5vAsbERl/view?usp=sharing",
 };
