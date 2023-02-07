@@ -191,6 +191,18 @@ export const projects = [
     image: "breakout.png",
     url: "https://brekout-mdrafi10.vercel.app",
   },
+  {
+    title: "Netflix Clone",
+    category: "App",
+    image: "netflix.png",
+    url: "https://react-netflix-clone-40-mdrafi10.vercel.app",
+  },
+  {
+    title: "TikTok Clone",
+    category: "App",
+    image: "tiktok.png",
+    url: "https://tiktok-typescript-with-next-js.vercel.app/",
+  },
 ];
 
 export const partners = [
