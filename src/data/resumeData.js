@@ -192,16 +192,28 @@ export const projects = [
     url: "https://brekout-mdrafi10.vercel.app",
   },
   {
-    title: "Netflix Clone",
+    title: "Netflix",
     category: "App",
     image: "netflix.png",
     url: "https://react-netflix-clone-40-mdrafi10.vercel.app",
   },
   {
-    title: "TikTok Clone",
+    title: "TikTok ",
     category: "App",
     image: "tiktok.png",
     url: "https://tiktok-typescript-with-next-js.vercel.app/",
+  },
+  {
+    title: "Amazon",
+    category: "App",
+    image: "amazon.png",
+    url: "https://amazon-clone-nextjs-4.netlify.app",
+  },
+  {
+    title: "ChatGpt",
+    category: "App",
+    image: "chatGpt.png",
+    url: "https://chat-gpt-next-js.netlify.app",
   },
 ];
 
