@@ -1,9 +1,9 @@
 export const main = {
   name: "Md Rafi",
   occupation: "Founder of KS Devware",
-  description: "I'm Front-End Developer",
+  description: "I'm Full-stack Developer",
   image: "profilepic.jpg",
-  bio: "I am Md Rafi. A young entrepreneur. With nearly 2 years of experience, I’m a front-end developer and UI/UX designer. I'm currently working on KS-Devware institute. Worked as a professional front-end developer. Learning full-stack Web/App development.",
+  bio: "I am Md Rafi. A young entrepreneur. With nearly 2 years of experience, I’m a full-stack developer and UI/UX designer. I'm currently working on KS-Devware institute. Worked as a professional full-stack developer. Learning full-stack Web/App development.",
   email: "mdrafiprogrammer@gmail.com",
   phone: "+880 17032 50661",
   quote: "The universe is a pretty big place. If it's just us.",
@@ -41,7 +41,7 @@ export const main = {
 };
 
 export const about = {
-  bio: "I am a front-end <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
+  bio: "I am a Full stack <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
   ido: `
   <p>WEB DEVELOPMENT</p>
   <p>APP DEVELOPMENT</p>
@@ -95,24 +95,57 @@ export const skills = {
     "I will help you build your website and grow your business. I create clarifying strategy, beautiful website and identity design.",
   skills: [
     {
-      title: "Expert at",
-      skills: ["JavaScript", "React JS", "Next JS", "CSS"],
+      title: "Ninja at",
+      skills: ["JavaScript", "React JS", "React Native", "Node JS"],
     },
     {
-      title: "Good at",
+      title: "Front-end",
       skills: [
-        "React Native",
-        "Redux",
+        "JavaScript",
+        "React JS",
+        "Next JS",
+        "HTML/CSS",
+        "SCSS",
         "UI/UX Design",
-        "Firebase",
-        "Sanity io",
-        "Git, GitHub",
-        "Tailwind CSS",
+        "Jquery",
+        "Redux",
       ],
     },
     {
-      title: "Cool at",
-      skills: ["SCSS", "Jquery", "Bootstrap", "Material UI", "HTML"],
+      title: "Back-end",
+      skills: ["Node JS", "Express JS", "Rest API"],
+    },
+    {
+      title: "Database",
+      skills: ["MySQL", "MongoDB", "Firebase"],
+    },
+    {
+      title: "App development",
+      skills: ["React Native"],
+    },
+    {
+      title: "Payment",
+      skills: ["Stripe"],
+    },
+    {
+      title: "Cloud",
+      skills: ["Google", "AWS", "Heroku", "Vercel"],
+    },
+    {
+      title: "Libraries",
+      skills: ["Tailwind CSS", "Bootstrap", "Material UI"],
+    },
+    {
+      title: "Others",
+      skills: [
+        "Git",
+        "GitHub",
+        "Figma",
+        "WordPress",
+        "Google Map",
+        "Mapbox",
+        "blockchain",
+      ],
     },
   ],
 };
@@ -222,6 +255,9 @@ export const partners = [
   },
   {
     image: "workslee.png",
+  },
+  {
+    image: "gorelove.png",
   },
 ];
 
