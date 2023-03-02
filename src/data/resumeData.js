@@ -8,7 +8,7 @@ export const main = {
   phone: "+880 17032 50661",
   quote: "The universe is a pretty big place. If it's just us.",
   address: "Banasree, Dhaka, Bangladesh",
-  website: "https://khaliddev.com",
+  website: "https://portfolio-mdrafi.vercel.app",
   resumedownload:
     "https://drive.google.com/file/d/18GDObOYfgttaYfqBSiD4Hv5l5vAsbERl/view?usp=sharing",
   social: [
