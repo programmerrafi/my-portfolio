@@ -55,7 +55,7 @@ export const about = {
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "https://drive.google.com/file/d/18GDObOYfgttaYfqBSiD4Hv5l5vAsbERl/view?usp=sharing",
+    "https://drive.google.com/file/d/1ZRiT7jsSj_1zOlnEVcNFd-CCCLsryLnD/view?usp=share_link",
 };
 
 export const works = [
