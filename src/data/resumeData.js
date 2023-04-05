@@ -10,7 +10,7 @@ export const main = {
   address: "Banasree, Dhaka, Bangladesh",
   website: "https://portfolio-mdrafi.vercel.app",
   resumedownload:
-    "https://drive.google.com/file/d/1ZRiT7jsSj_1zOlnEVcNFd-CCCLsryLnD/view?usp=share_link",
+    "https://drive.google.com/file/d/1YA8zm9Wdlx-5jTqhPWMF3FOfJW552Oqp/view?usp=share_link",
   social: [
     {
       name: "linkedin",
@@ -53,9 +53,8 @@ export const about = {
   years: 2,
   image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
-  // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
-    "https://drive.google.com/file/d/1ZRiT7jsSj_1zOlnEVcNFd-CCCLsryLnD/view?usp=share_link",
+    "https://drive.google.com/file/d/1YA8zm9Wdlx-5jTqhPWMF3FOfJW552Oqp/view?usp=share_link",
 };
 
 export const works = [
