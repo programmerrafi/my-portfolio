@@ -1204,9 +1204,69 @@ h1 + .line {
   display: flex;
   flex-wrap: wrap;
   column-gap: 1.3rem;
+  gap: 1.3rem;
+}
+.all-skill h6 {
+  text-align: center;
 }
 .skill-item {
-  font-weight: bold;
+  border: 3px solid #454548;
+  padding: 24px 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.skill-item:hover {
+  border-color: #d4f21d;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.skills_wrapper .skill-item img {
+  margin-top: 5px;
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  /* background-color: red; */
+}
+.skills_wrapper .skill-item h6 {
+  font-size: 25px;
+  color: #27e98b;
+  /* background-color: rgb(42, 40, 184); */
+}
+/* paginate css npm */
+.paginate-ul {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.paginate-ul .previous {
+  cursor: pointer;
+  padding: 2px 10px;
+  border: 1px solid #27e98b;
+  margin-right: 10px;
+}
+.paginate-ul .next {
+  cursor: pointer;
+  padding: 2px 10px;
+  border: 1px solid #27e98b;
+  margin-left: 10px;
+}
+.paginate-a {
+  cursor: pointer;
+  color: #fff !important;
+  font: bold !important;
+  padding: 5px 16px;
+  border: 1px solid #298b5c;
+  background-color: #27e98b;
 }
 
 .progress {
