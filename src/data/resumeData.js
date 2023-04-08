@@ -99,38 +99,105 @@ export const skills = {
       // skills: ["JavaScript", "React JS", "React Native", "Node JS"],
       skills: [
         { title: "JavaScript", img: "img/skills/js.png", percent: "95%" },
-        { title: "React JS", img: "img/skills/js.png", percent: "92%" },
-        { title: "React Native", img: "img/skills/js.png", percent: "85%" },
-        { title: "Next JS", img: "img/skills/js.png", percent: "90%" },
+        { title: "React JS", img: "img/skills/react.png", percent: "92%" },
+        {
+          title: "React Native",
+          img: "img/skills/react-native.png",
+          percent: "85%",
+        },
+        { title: "Next JS", img: "img/skills/next.png", percent: "90%" },
       ],
     },
     {
       title: "Front-end",
       skills: [
-        { title: "JavaScript", img: "img/skills/js.png", percent: "90%" },
-        { title: "React JS", img: "img/skills/js.png", percent: "90%" },
-        { title: "Next JS", img: "img/skills/js.png", percent: "90%" },
-        { title: "HTML/CSS", img: "img/skills/js.png", percent: "90%" },
-        { title: "SCSS", img: "img/skills/js.png", percent: "90%" },
-        { title: "UI/UX Design", img: "img/skills/js.png", percent: "90%" },
-        { title: "Jquery", img: "img/skills/js.png", percent: "90%" },
-        { title: "Redux", img: "img/skills/js.png", percent: "90%" },
+        { title: "JavaScript", img: "img/skills/js.png", percent: "95%" },
+        { title: "React JS", img: "img/skills/react.png", percent: "92%" },
+        { title: "Next JS", img: "img/skills/next.png", percent: "90%" },
+        { title: "HTML/CSS", img: "img/skills/html-css.png", percent: "98%" },
+        { title: "SCSS", img: "img/skills/scss.png", percent: "90%" },
+        { title: "UI Design", img: "img/skills/ui.png", percent: "96%" },
+        { title: "Jquery", img: "img/skills/jquery.png", percent: "85%" },
+        { title: "Redux", img: "img/skills/redux.png", percent: "90%" },
       ],
     },
     {
       title: "Back-end",
       skills: [
-        { title: "Node JS", img: "img/skills/js.png", percent: "90%" },
-        { title: "Express JS", img: "img/skills/js.png", percent: "90%" },
-        { title: "Rest API", img: "img/skills/js.png", percent: "90%" },
+        { title: "Node JS", img: "img/skills/node.png", percent: "80%" },
+        { title: "Express JS", img: "img/skills/express.png", percent: "81%" },
+        { title: "Rest API", img: "img/skills/rest.png", percent: "80%" },
       ],
     },
     {
       title: "Database",
       skills: [
-        { title: "MySQL", img: "img/skills/js.png", percent: "90%" },
-        { title: "MongoDB", img: "img/skills/js.png", percent: "90%" },
-        { title: "Firebase", img: "img/skills/js.png", percent: "90%" },
+        { title: "MySQL", img: "img/skills/mysql.png", percent: "80%" },
+        { title: "MongoDB", img: "img/skills/mongo.png", percent: "82%" },
+        { title: "Firebase", img: "img/skills/firebase.png", percent: "90%" },
+      ],
+    },
+    {
+      title: "App development & Payment",
+      skills: [
+        {
+          title: "React Native",
+          img: "img/skills/react-native.png",
+          percent: "85%",
+        },
+        {
+          title: "Stripe",
+          img: "img/skills/stripe.png",
+          percent: "80%",
+        },
+      ],
+    },
+    {
+      title: "Cloud",
+      skills: [
+        { title: "Google", img: "img/skills/google.png", percent: "80%" },
+        { title: "AWS", img: "img/skills/aws.png", percent: "75%" },
+        { title: "Heroku", img: "img/skills/heroku.png", percent: "75%" },
+        { title: "Vercel", img: "img/skills/vercel.png", percent: "90%" },
+      ],
+    },
+    {
+      title: "Libraries",
+      skills: [
+        {
+          title: "Tailwind CSS",
+          img: "img/skills/tailwind.png",
+          percent: "90%",
+        },
+        { title: "Bootstrap", img: "img/skills/bootstarp.png", percent: "90%" },
+        {
+          title: "Material UI",
+          img: "img/skills/material.png",
+          percent: "80%",
+        },
+      ],
+    },
+    {
+      title: "Others",
+      skills: [
+        { title: "Figma", img: "img/skills/figma.png", percent: "80%" },
+        {
+          title: "Git, GitHub",
+          img: "img/skills/git-github.png",
+          percent: "80%",
+        },
+        { title: "WordPress", img: "img/skills/wordpress.png", percent: "70%" },
+        {
+          title: "Google Map",
+          img: "img/skills/google-map.png",
+          percent: "80%",
+        },
+        {
+          title: "blockchain",
+          img: "img/skills/blockchain.png",
+          percent: "70%",
+        },
+        { title: "Mapbox", img: "img/skills/mapbox.png", percent: "70%" },
       ],
     },
     // {
@@ -144,42 +211,6 @@ export const skills = {
     //     "UI/UX Design",
     //     "Jquery",
     //     "Redux",
-    //   ],
-    // },
-    // {
-    //   title: "Back-end",
-    //   skills: ["Node JS", "Express JS", "Rest API"],
-    // },
-    // {
-    //   title: "Database",
-    //   skills: ["MySQL", "MongoDB", "Firebase"],
-    // },
-    // {
-    //   title: "App development",
-    //   skills: ["React Native"],
-    // },
-    // {
-    //   title: "Payment",
-    //   skills: ["Stripe"],
-    // },
-    // {
-    //   title: "Cloud",
-    //   skills: ["Google", "AWS", "Heroku", "Vercel"],
-    // },
-    // {
-    //   title: "Libraries",
-    //   skills: ["Tailwind CSS", "Bootstrap", "Material UI"],
-    // },
-    // {
-    //   title: "Others",
-    //   skills: [
-    //     "Git",
-    //     "GitHub",
-    //     "Figma",
-    //     "WordPress",
-    //     "Google Map",
-    //     "Mapbox",
-    //     "blockchain",
     //   ],
     // },
   ],

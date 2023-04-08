@@ -1248,16 +1248,18 @@ h1 + .line {
   align-items: center;
   gap: 0px;
 }
-.paginate-ul .previous {
+.paginate-ul .previous > a {
   cursor: pointer;
-  padding: 2px 10px;
-  border: 1px solid #27e98b;
+  padding: 5px 10px;
+  border: 1px solid #298b5c;
+  background-color: #27e98b;
   margin-right: 10px;
 }
-.paginate-ul .next {
+.paginate-ul .next > a {
   cursor: pointer;
-  padding: 2px 10px;
-  border: 1px solid #27e98b;
+  padding: 5px 10px;
+  border: 1px solid #298b5c;
+  background-color: #27e98b;
   margin-left: 10px;
 }
 .paginate-a {
