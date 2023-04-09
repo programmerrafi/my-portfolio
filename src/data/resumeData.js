@@ -200,19 +200,6 @@ export const skills = {
         { title: "Mapbox", img: "img/skills/mapbox.png", percent: "70%" },
       ],
     },
-    // {
-    //   title: "Front-end",
-    //   skills: [
-    //     "JavaScript",
-    //     "React JS",
-    //     "Next JS",
-    //     "HTML/CSS",
-    //     "SCSS",
-    //     "UI/UX Design",
-    //     "Jquery",
-    //     "Redux",
-    //   ],
-    // },
   ],
 };
 
