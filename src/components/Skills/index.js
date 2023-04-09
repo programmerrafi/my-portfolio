@@ -103,6 +103,8 @@ function Skills({ skills, title, subtitle }) {
                     containerClassName="paginate-ul"
                     pageClassName="paginate-li"
                     pageLinkClassName="paginate-a"
+                    activeClassName="paginate-active"
+                    activeLinkClassName="paginate-link-a"
                     // className="paginate-prev-next"
                   />
                 </div>

@@ -65,21 +65,21 @@ body {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #d4f21b;
+  background: #64cf51;
 }
 
 ::selection {
-  background-color: #d4f21b;
+  background-color: #64cf51;
   color: #000;
 }
 
 -webkit-::selection {
-  background-color: #d4f21b;
+  background-color: #64cf51;
   color: #000;
 }
 
 ::-moz-selection {
-  background-color: #d4f21b;
+  background-color: #64cf51;
   color: #000;
 }
 
@@ -188,7 +188,7 @@ ul {
 }
 
 a {
-  color: #d4f21b;
+  color: #64cf51;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
@@ -196,7 +196,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #d4f21b;
+  color: #64cf51;
   outline: none;
 }
 
@@ -244,7 +244,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-  border-color: #d4f21b;
+  border-color: #64cf51;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -265,7 +265,7 @@ textarea.form-control {
 }
 
 label.error {
-  border-color: #d4f21b;
+  border-color: #64cf51;
   padding: 9px 0 0 22px;
   font-size: 0.9rem;
 }
@@ -282,7 +282,7 @@ label.error {
   font-family: "Karla", sans-serif;
   position: relative;
   display: inline-block;
-  border: 0.2em solid #d4f21b;
+  border: 0.2em solid #64cf51;
   border-radius: 0;
   padding: 1em 2.4em 1em;
   font-size: 0.875em;
@@ -292,7 +292,7 @@ label.error {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #d4f21b;
+  background-color: #64cf51;
   font-weight: 700;
   border-width: 1px;
   -webkit-transition: all 0.3s ease-out !important;
@@ -303,8 +303,8 @@ label.error {
 .btn:focus,
 .btn:active {
   color: #000;
-  background-color: #d4f21b;
-  border-color: #d4f21b;
+  background-color: #64cf51;
+  border-color: #64cf51;
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: none !important;
@@ -372,8 +372,8 @@ ion-icon {
 }
 
 .icon-play:hover {
-  border: 1px solid #d4f21b;
-  background-color: #d4f21b;
+  border: 1px solid #64cf51;
+  background-color: #64cf51;
   color: #343434;
 }
 
@@ -412,7 +412,7 @@ ion-icon {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #d4f21b;
+  background-color: #64cf51;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -498,7 +498,7 @@ ion-icon {
 }
 
 .text-primary {
-  color: #d4f21b !important;
+  color: #64cf51 !important;
 }
 
 /*-------------------------------------------------------------------------------
@@ -636,7 +636,7 @@ ion-icon {
 }
 
 .social-icons ion-icon:hover {
-  color: #d4f21b;
+  color: #64cf51;
 }
 
 .navbar-bottom-white,
@@ -788,7 +788,7 @@ ion-icon {
 
 .navbar-mobile .language .active a,
 .navbar-mobile .language li a:hover {
-  color: #d4f21b;
+  color: #64cf51;
   text-decoration: none;
 }
 
@@ -805,7 +805,7 @@ ion-icon {
 
 .navbar-mobile .close:hover {
   opacity: 1;
-  color: #d4f21b;
+  color: #64cf51;
 }
 
 @media (min-width: 576px) {
@@ -838,7 +838,7 @@ ion-icon {
 .navbar-nav-mobile li .active,
 .navbar-nav-mobile li a:hover,
 .navbar-nav-mobile li a:focus {
-  color: #d4f21b;
+  color: #64cf51;
 }
 
 .menu-is-open {
@@ -935,7 +935,7 @@ ion-icon {
 h1 + .line {
   margin-top: 15vh;
   width: 25%;
-  border-top: 3px solid #d4f21b;
+  border-top: 3px solid #64cf51;
   transition: all 0.3s ease;
 }
 
@@ -1031,7 +1031,7 @@ h1 + .line {
   height: 0;
   content: "";
   transition: all 0.3s ease;
-  background-color: #d4f21b;
+  background-color: #64cf51;
 }
 
 .progress-nav li:before {
@@ -1061,7 +1061,7 @@ h1 + .line {
   font-size: 10rem;
   line-height: 1;
   font-family: "Karla", sans-serif;
-  color: #d4f21b;
+  color: #64cf51;
 }
 
 .experience-text {
@@ -1122,7 +1122,7 @@ h1 + .line {
 }
 
 .owl-dot.active span {
-  background-color: #d4f21b;
+  background-color: #64cf51;
 }
 
 .owl-nav {
@@ -1152,7 +1152,7 @@ h1 + .line {
 .owl-prev:hover,
 .owl-next:hover {
   opacity: 1 !important;
-  color: #d4f21b !important;
+  color: #64cf51 !important;
 }
 
 /* 3.5 Skills */
@@ -1223,7 +1223,7 @@ h1 + .line {
   -o-border-radius: 100px;
 }
 .skill-item:hover {
-  border-color: #d4f21d;
+  border-color: #64cf51;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1239,8 +1239,8 @@ h1 + .line {
 }
 .skills_wrapper .skill-item h6 {
   font-size: 25px;
-  color: #27e98b;
-  /* background-color: rgb(42, 40, 184); */
+  color: #64cf51;
+  /* color: #d4f21b; */
 }
 /* paginate css npm */
 .paginate-ul {
@@ -1248,27 +1248,28 @@ h1 + .line {
   align-items: center;
   gap: 0px;
 }
-.paginate-ul .previous > a {
+.paginate-ul .previous > a,
+.paginate-ul .next > a {
   cursor: pointer;
+  color: rgb(48, 48, 48) !important;
   padding: 5px 10px;
   border: 1px solid #298b5c;
-  background-color: #27e98b;
+  background-color: #64cf51;
   margin-right: 10px;
 }
 .paginate-ul .next > a {
-  cursor: pointer;
-  padding: 5px 10px;
-  border: 1px solid #298b5c;
-  background-color: #27e98b;
   margin-left: 10px;
 }
 .paginate-a {
   cursor: pointer;
-  color: #fff !important;
-  font: bold !important;
+  color: rgb(48, 48, 48) !important;
   padding: 5px 16px;
   border: 1px solid #298b5c;
-  background-color: #27e98b;
+  background-color: #64cf51;
+}
+.paginate-link-a {
+  color: #fff !important;
+  background-color: #298b5c !important;
 }
 
 .progress {
@@ -1284,7 +1285,7 @@ h1 + .line {
 
 .progress-bar:before {
   position: absolute;
-  background: #d4f21b;
+  background: #64cf51;
   content: "";
   width: 0;
   height: 100%;
@@ -1402,7 +1403,7 @@ h1 + .line {
 }
 
 .project-box:hover {
-  /*background: #d4f21b;
+  /*background: #64cf51;
   */
   text-decoration: none;
   border-color: transparent;
