@@ -50,7 +50,7 @@ export const about = {
   <p>BACK-END DEVELOPMENT</p>
   <p>FULL-STACK DEVELOPMENT</p>
   `,
-  years: 2,
+  years: 3,
   image: "img/perfect-min.png",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
