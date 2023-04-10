@@ -1,4 +1,4 @@
-function About({ bio, ido, years, image, video, resumedownload }) {
+function About({ bio, subtitle, ido, years, image, video, resumedownload }) {
   return (
     <>
       <section

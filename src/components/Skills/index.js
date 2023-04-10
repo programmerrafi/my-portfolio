@@ -77,7 +77,7 @@ function Skills({ skills, title, subtitle }) {
                   ></p>
                   {currentItems?.map(({ title, skills }) => (
                     <div className="exp_skills" key={title}>
-                      <h4>{title}</h4>
+                      <h4 dangerouslySetInnerHTML={{ __html: title }}></h4>
                       <div className="mb-4 pt-2 skills_wrapper">
                         {skills?.map((skill, i) => (
                           <div className="all-skill" key={i}>

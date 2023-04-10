@@ -41,7 +41,10 @@ export const main = {
 };
 
 export const about = {
-  bio: "I am a Full stack <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
+  // bio: "I am a Fronted <br /><span class='text-primary'>developer</span> who cares<br /> about the mission",
+  bio: "As a Frontend <br /> <span class='text-primary'>Software Engineer</span> I have full  stack experience with a frontend focus.",
+  subtitle:
+    "As a Frontend Software Engineer I have full stack experience with a frontend focus.",
   ido: `
   <p>WEB DEVELOPMENT</p>
   <p>APP DEVELOPMENT</p>
@@ -52,7 +55,6 @@ export const about = {
   `,
   years: 3,
   image: "img/perfect-min.png",
-  // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   // "video": "https://www.youtube.com/watch?v=ghQd1PbzVaY",
   resumedownload:
     "https://drive.google.com/file/d/1YA8zm9Wdlx-5jTqhPWMF3FOfJW552Oqp/view?usp=share_link",
@@ -96,7 +98,7 @@ export const skills = {
     "I will help you build your website and grow your business. I create clarifying strategy, beautiful website and identity design.",
   skills: [
     {
-      title: "Ninja at",
+      title: "Skills: <span class='text-primary'>Ninja at</span>",
       // skills: ["JavaScript", "React JS", "React Native", "Node JS"],
       skills: [
         { title: "JavaScript", img: "img/skills/js.png", percent: "95%" },
@@ -110,7 +112,7 @@ export const skills = {
       ],
     },
     {
-      title: "Front-end",
+      title: "Skills: <span class='text-primary'>Front-end</span>",
       skills: [
         { title: "JavaScript", img: "img/skills/js.png", percent: "95%" },
         { title: "React JS", img: "img/skills/react.png", percent: "92%" },
@@ -123,7 +125,7 @@ export const skills = {
       ],
     },
     {
-      title: "Back-end",
+      title: "Skills: <span class='text-primary'>Back-end</span>",
       skills: [
         { title: "Node JS", img: "img/skills/node.png", percent: "80%" },
         { title: "Express JS", img: "img/skills/express.png", percent: "81%" },
@@ -131,7 +133,7 @@ export const skills = {
       ],
     },
     {
-      title: "Database",
+      title: "Skills: <span class='text-primary'>Database</span>",
       skills: [
         { title: "MySQL", img: "img/skills/mysql.png", percent: "80%" },
         { title: "MongoDB", img: "img/skills/mongo.png", percent: "82%" },
@@ -139,7 +141,8 @@ export const skills = {
       ],
     },
     {
-      title: "App development & Payment",
+      title:
+        "Skills: <span class='text-primary'>App development & Payment</span>",
       skills: [
         {
           title: "React Native",
@@ -154,7 +157,7 @@ export const skills = {
       ],
     },
     {
-      title: "Cloud",
+      title: "Skills: <span class='text-primary'>Cloud</span>",
       skills: [
         { title: "Google", img: "img/skills/google.png", percent: "80%" },
         { title: "AWS", img: "img/skills/aws.png", percent: "75%" },
@@ -163,7 +166,7 @@ export const skills = {
       ],
     },
     {
-      title: "Libraries",
+      title: "Skills: <span class='text-primary'>Libraries</span>",
       skills: [
         {
           title: "Tailwind CSS",
@@ -179,7 +182,7 @@ export const skills = {
       ],
     },
     {
-      title: "Others",
+      title: "Skills: <span class='text-primary'>Others</span>",
       skills: [
         { title: "Figma", img: "img/skills/figma.png", percent: "80%" },
         {
