@@ -1,9 +1,9 @@
 export const main = {
   name: "Md Rafi",
   occupation: "Founder of KS Devware",
-  description: "I'm Full-stack Developer",
+  description: "I'm Frontend Software Engineer",
   image: "profilepic.jpg",
-  bio: "I am Md Rafi. A young entrepreneur. With nearly 2 years of experience, I’m a full-stack developer and UI/UX designer. I'm currently working on KS-Devware institute. Worked as a professional full-stack developer. Learning full-stack Web/App development.",
+  bio: "I am Md Rafi. A young entrepreneur. With nearly 3 years of experience, I’m a Frontend developer, I have full  stack experience with a frontend focus. I'm currently working on KS-Devware institute. Worked as a professional Frontend developer. Learning Full-stack Web/App development.",
   email: "mdrafiprogrammer@gmail.com",
   phone: "+880 17032 50661",
   quote: "The universe is a pretty big place. If it's just us.",
